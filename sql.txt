@@ -1,0 +1,9 @@
+CREATE TABLE IF NOT EXISTS `distancias` (
+  `cd` int(11) NOT NULL AUTO_INCREMENT,
+  `origem` varchar(255) DEFAULT NULL,
+  `destino` varchar(255) DEFAULT NULL,
+  `distancia` varchar(255) DEFAULT NULL,
+  `dt_cadastro` datetime DEFAULT NULL,
+  `dt_atualizacao` datetime DEFAULT NULL,
+  PRIMARY KEY (`cd`)
+) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=latin1;
